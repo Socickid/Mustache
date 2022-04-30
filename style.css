@@ -1,0 +1,17 @@
+Canvas{
+    border: 3px solid rgb(9, 255, 0);
+    background-color: rgb(255, 145, 0);
+    border-radius: 50px;
+    animation-name: Sample;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Sample{
+    from{
+        box-shadow: 4px 4px 50px rgb(0, 255, 247)
+    }
+    to{
+        box-shadow: 4px 4px 50px rgb(255, 255, 0);
+    }
+}
